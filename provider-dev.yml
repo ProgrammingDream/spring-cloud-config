@@ -1,0 +1,10 @@
+server:
+  port: 7070
+spring:
+  application:
+    name: provider
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9090/eureka
